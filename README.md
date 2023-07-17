@@ -9,8 +9,8 @@ This repository contains a command-line application that allows you to generate 
 3. Run `npm install` to install any dependencies.
 4. Run `node index.js` to run the command-line application.
 5. Follow the prompts to create your desired logo.
-6. After successfully answering the prompts, then the file `logo.svg` will be created.
-7. The command line will print out a confirmation message.
+6. The command line will print out a confirmation message.
+7. The file `logo.svg` will be created.
 
 ## Demo
 
