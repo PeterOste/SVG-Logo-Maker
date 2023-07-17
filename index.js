@@ -1,9 +1,9 @@
 // Required dependencies
 const fs = require('fs');
-const inquirer = require(inquirer);
+const inquirer = require('inquirer');
 
 function generateLogo() {
-    const Questions = [
+    const questions = [
         {
             type: 'input',
             name: 'text',
@@ -26,6 +26,24 @@ function generateLogo() {
             message: 'Enter shape color (color keyword or hexadecimal number):',
         },
     ];
+
+    inquirer
+        .prompt(questions)
+        .then(({ text, textColor, shape, shapeColor}) => {
+            const svg = `<svg width="300" height="200">
+                <text x="10" y="30" fill="${textColor}">${text}</text>
+                g fill="${getShape(shapeColor)}">
+                    ${getShape(shape)}
+                </g>
+            </svg>`;
+
+            fs.writeFileSync('logo.svg', svg);
+
+            console.log('Generated logo.svg');
+        })
+        .catch((error) => {
+            console.error('An error occurred: ', error.message);
+        });
 }
 
 function getShape(shape) {
