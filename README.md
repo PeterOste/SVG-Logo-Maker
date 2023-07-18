@@ -12,7 +12,7 @@ This repository contains a command-line application that allows you to generate 
 6. The command line will print out a confirmation message and the file `logo.svg` will be created.
 
 ## Demo
-
+https://drive.google.com/file/d/1A2ohLR7hkLo6jEPiSbKEnkjZzMgK83Xy/view
 
 ## License
 This project is licensed under the MIT license.
