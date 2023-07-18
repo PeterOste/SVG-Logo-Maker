@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "inquirer": "^9.2.8"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
