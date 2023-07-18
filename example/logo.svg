@@ -1,0 +1,6 @@
+<svg width="200" height="200">
+            <g fill="Red">
+              <circle cx="100" cy="100" r="50" fill="Red"/>
+              </g>
+              <text x="50%" y="50%" fill="Blue" text-anchor="middle">SVG</text>
+          </svg>

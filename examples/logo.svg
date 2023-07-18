@@ -1,6 +1,0 @@
-<svg width="300" height="200">
-            <g fill="red">
-              <circle cx="100" cy="100" r="50" fill="red"/>
-              <text x="150" y="120" fill="Blue" text-anchor="middle">Hey</text>
-            </g>
-          </svg>
